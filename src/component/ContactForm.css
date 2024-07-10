@@ -1,0 +1,11 @@
+/* ContactForm.css */
+.contact-title {
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .contact-title:hover {
+    color: black;
+  }
+  

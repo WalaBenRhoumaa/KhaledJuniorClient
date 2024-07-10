@@ -1,0 +1,58 @@
+.blogs-section {
+  padding: 200px 0;
+}
+
+.heading-content {
+  margin-bottom: 100px;
+}
+
+.blogs-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adds space between the divs */
+  flex-wrap: wrap; /* Allows the blogs to wrap when the screen size is smaller */
+}
+
+.blog-content {
+  flex-basis: 45%;
+  background: rgb(13, 11, 165);
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+.scrollbar2 {
+  height: 250px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.scrollbar2::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar2::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.scrollbar2::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.scrollbar2::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .blogs-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-content {
+    flex-basis: 100%;
+  }
+}
